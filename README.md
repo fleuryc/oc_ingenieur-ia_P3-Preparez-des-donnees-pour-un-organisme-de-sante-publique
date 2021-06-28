@@ -12,6 +12,7 @@ Goal : use Jupyter Notebook and Voilà to clean, analyse and present Open Food F
 
 ````bash
 # conda install jupyterlab ipywidgets numpy pandas matplotlib seaborn plotly statsmodels
+# conda install -c conda-forge voila
 # or :
 conda env update -f environment.yml
 ````
@@ -19,7 +20,7 @@ conda env update -f environment.yml
   - Pip
 
 ```bash
-# pip install jupyterlab ipywidgets numpy pandas matplotlib seaborn plotly statsmodels
+# pip install jupyterlab ipywidgets numpy pandas matplotlib seaborn plotly statsmodels voila
 # or :
 pip install -r requirements.txt
 ```
