@@ -8,7 +8,7 @@ Goal : use Jupyter Notebook and Voilà to clean, analyse and present Open Food F
 
 ## Requirements
 
-- Conda
+  - Conda
 
 ````bash
 # conda install jupyterlab ipywidgets numpy pandas matplotlib seaborn plotly statsmodels sklearn
@@ -17,7 +17,7 @@ Goal : use Jupyter Notebook and Voilà to clean, analyse and present Open Food F
 conda env update -f environment.yml
 ````
 
-- Pip
+  - Pip
 
 ```bash
 # pip install jupyterlab ipywidgets numpy pandas matplotlib seaborn plotly statsmodels sklearn voila
@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## Troubleshooting
 
-- Fix Plotly issues with JupyterLab
+  - Fix Plotly issues with JupyterLab
 
 cf. [Plotly troubleshooting](https://plotly.com/python/troubleshooting/#jupyterlab-problems)
 
@@ -35,7 +35,7 @@ cf. [Plotly troubleshooting](https://plotly.com/python/troubleshooting/#jupyterl
 jupyter labextension install jupyterlab-plotly
 ```
 
-- If using Jupyter Notebook instead of JupyterLab, uncomment the following lines in the notebook
+  - If using Jupyter Notebook instead of JupyterLab, uncomment the following lines in the notebook
 
 ````python
 import plotly.io as pio
