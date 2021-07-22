@@ -40,7 +40,6 @@ jupyter-lab
 ````
 
 -   Execute the whole Notebook in JupyterLab (http://localhost:8888/lab/tree/notebook.ipynb)
-
 -   Render the Notebook with Voilà : (http://localhost:8888/voila/render/notebook.ipynb)
 
 ## Troubleshooting
